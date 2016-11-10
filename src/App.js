@@ -18,20 +18,7 @@ class App extends Component {
     });
 
   }
-
-  readData() {
-    // let chatRef = firebase.database().ref('chat');
-    // chatRef.orderByChild('age').equalTo(2).once('value').then((query) => {
-    //   let data = []
-    //   query.forEach((child) => {
-    //     data.push(child.val());
-    //   })
-    //   this.setState({
-    //     data: data
-    //   })
-    // })
-  }
-
+  
   onKeyDown(e) {
     if (e.which === 13) {
       this.writeData() 
